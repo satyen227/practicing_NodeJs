@@ -1,0 +1,11 @@
+const express = require("express");
+const app = express();
+// console.log(app);
+const port = 3000;
+app.listen(port, () => {
+  console.log(`App is listening at port ${port}`);
+});
+
+app.use((req, res) => {
+  console.log("Request Recived");
+});
