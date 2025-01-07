@@ -7,5 +7,6 @@ app.listen(port, () => {
 });
 
 app.use((req, res) => {
-  console.log("Request Recived");
+  //console.log("Request Recived");
+  res.send("Hey there how are you ,i am killua thanks for connecting");
 });
